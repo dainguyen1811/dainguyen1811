@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    background-color: #303030;
+    color:white;
+    justify-content: center;
+    width:100%;
+    text-align:center;
+    position: relative;
+}
+ul.a li{
+    display:inline-block;
+    margin:15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+.buttonheader{
+    position: absolute;
+    margin:30px;
+    right:15px;
+    bottom:0;
+    font-size: 40px;
+}
+.bg1{
+    background-color: black;
+    padding:10px;
+}
+.bg1title{
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    margin: 70px;
+    text-align: left;
+    line-height: 0.5%;
+}
+.bg1p{
+    width: 500px;
+    height: 210px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 70px;
+    text-align: left;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 5px;
+    background-color: #e6760e;
+    width:250px;
+    height:75px;
+    margin: 70px;
+}
+.bg1button{
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+.box{
+    background-color: #e6760e;
+    padding:1px;
+}
+
+.header{
+    text-align: center;
+}
+.box h3{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Oswald";
+    text-align: center;
+}
+.box h2{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+.box p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.textt{
+    height: 210px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.body{
+    margin-left:45px;
+    margin-bottom: 20px;
+    padding:1px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.col{
+    background-color: #303030;
+    width:30%;
+    float:left;
+    height:100%;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 35px;
+}
+.col img{
+    width:100%;
+    height:auto;
+}
+.box3 {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    margin-right: 20px;
+}
+  
+.text {
+    flex: 2;
+}
+  
+.text h2 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";  
+}
+  
+.text p {
+    
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #303030;  
+    margin-left: 230px;
+}
+.textbutton{
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+    
+}
+.body_anh{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 82px;
+    margin:auto;
+}
+.body_chu1{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    padding: 60px 0 20px;
+    background-color:#303030 ;
+    color:#ffffff
+}
+.body_chu2{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 34px;
+    background-color:#303030 ;
+    color:#ffffff
+}
+.body_anh1{
+    background-color: rgba(227, 227, 227, 0.942);
+    width: 390px;
+}
+.body_anh_chu1{
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+.body_anh_chu2{
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+/* pricing */
+.body1_1{
+    background-color: rgb(234, 224, 224);
+    margin-top: -4px;
+    padding-bottom: 60px;
+    margin-left: -71px;
+}
+.body_anh2_2{
+    font-size: 300px;
+    text-align: center;
+}
+.body_anh1_1{
+    background-color:rgb(255,94,0) ;
+    width: 390px;
+}
+.body_anh_tien{
+    width: 327px;
+    background-color: rgba(247, 245, 245, 0.901);
+    margin: 5px 32px 10px;
+    font-size: 38px;
+    text-align: center;
+}
+
+.textt {
+    text-align: center;
+}
